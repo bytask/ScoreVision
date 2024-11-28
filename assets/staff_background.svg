@@ -1,0 +1,12 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="staff" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="20" x2="100" y2="20" stroke="#d0d0d0" stroke-width="1"/>
+      <line x1="0" y1="40" x2="100" y2="40" stroke="#d0d0d0" stroke-width="1"/>
+      <line x1="0" y1="60" x2="100" y2="60" stroke="#d0d0d0" stroke-width="1"/>
+      <line x1="0" y1="80" x2="100" y2="80" stroke="#d0d0d0" stroke-width="1"/>
+      <line x1="0" y1="100" x2="100" y2="100" stroke="#d0d0d0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#staff)"/>
+</svg>
