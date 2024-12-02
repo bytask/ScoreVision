@@ -5,7 +5,7 @@ import numpy as np
 class NoteDetectionModel:
     def __init__(self, conf_threshold=0.25):
         """Initialize YOLOv5 model for music note detection."""
-        self.model = YOLO('yolov5s.pt')  # Load the default YOLOv5 small model
+        self.model = YOLO('best.pt')  # Load the default YOLOv5 small model
         self.conf_threshold = conf_threshold
         
     def preprocess_image(self, image):
