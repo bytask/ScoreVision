@@ -86,6 +86,8 @@ if uploaded_file is not None:
                 color = (0, 255, 0)  # Green for rest
             elif class_type == 1:
                 color = (0, 0, 255)  # Blue for note
+            elif class_type == 2:
+                color = (255, 0, 0)  # Red for head
             else:
                 color = (0, 0, 0)  # Default to white
 

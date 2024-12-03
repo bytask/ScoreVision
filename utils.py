@@ -31,3 +31,4 @@ def get_note_pitch(y_position, staff_lines):
     pitch_idx = int(distance + 4)
     pitch_idx = max(0, min(pitch_idx, len(pitches)-1))
     return pitches[pitch_idx]
+    
